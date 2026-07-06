@@ -1,15 +1,342 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar Tyagi Data Analyst</title>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>STUDIO | Professional Portfolio</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-primary": "#ffffff",
+                    "outline-variant": "#c6c6cd",
+                    "on-tertiary": "#ffffff",
+                    "on-surface": "#0b1c30",
+                    "primary-container": "#131b2e",
+                    "secondary-container": "#e0e3e5",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#444749",
+                    "background": "#f8f9ff",
+                    "error": "#ba1a1a",
+                    "on-tertiary-fixed-variant": "#004c69",
+                    "on-tertiary-fixed": "#001e2c",
+                    "inverse-on-surface": "#eaf1ff",
+                    "surface-container-high": "#dce9ff",
+                    "surface-container-highest": "#d3e4fe",
+                    "outline": "#76777d",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "inverse-surface": "#213145",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-container": "#7c839b",
+                    "secondary-fixed": "#e0e3e5",
+                    "on-secondary": "#ffffff",
+                    "secondary": "#5c5f61",
+                    "primary": "#000000",
+                    "surface": "#f8f9ff",
+                    "tertiary": "#000000",
+                    "error-container": "#ffdad6",
+                    "on-secondary-container": "#626567",
+                    "tertiary-fixed-dim": "#7bd0ff",
+                    "surface-tint": "#565e74",
+                    "on-tertiary-container": "#008ebf",
+                    "tertiary-fixed": "#c4e7ff",
+                    "on-secondary-fixed": "#191c1e",
+                    "secondary-fixed-dim": "#c4c7c9",
+                    "on-error-container": "#93000a",
+                    "surface-container-low": "#eff4ff",
+                    "surface-dim": "#cbdbf5",
+                    "on-surface-variant": "#45464d",
+                    "surface-bright": "#f8f9ff",
+                    "primary-fixed": "#dae2fd",
+                    "inverse-primary": "#bec6e0",
+                    "tertiary-container": "#001e2c",
+                    "on-background": "#0b1c30",
+                    "surface-variant": "#d3e4fe",
+                    "surface-container": "#e5eeff",
+                    "on-primary-fixed": "#131b2e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "32px",
+                    "stack-lg": "64px",
+                    "margin-mobile": "24px",
+                    "margin-desktop": "80px",
+                    "container-max": "1280px",
+                    "stack-xl": "120px",
+                    "stack-md": "32px",
+                    "stack-sm": "16px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Hanken Grotesk"],
+                    "label-sm": ["Inter"],
+                    "headline-lg-mobile": ["Hanken Grotesk"],
+                    "display-xl-mobile": ["Hanken Grotesk"],
+                    "display-xl": ["Hanken Grotesk"],
+                    "label-caps": ["JetBrains Mono"],
+                    "body-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-lg": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-sm": ["14px", {"lineHeight": "20px", "fontWeight": "500"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "display-xl-mobile": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700"}],
+                    "display-xl": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
 </head>
-<body>
-    <h1>Tushar Tyagi (Data Analyst)</h1>
-    <br>
-    <a href="https://techiguru.in/">Visit our website</a>
-    <!--Add image in the page-->
-    <img src="https://images.pexels.com/photos/32755786/pexels-photo-32755786.jpeg" width="200" height="200">
-</body>
-</html>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim cursor-pointer transition-opacity active:opacity-70">STUDIO</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-surface-variant/70 hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300" href="#about">About</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-surface-variant/70 hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300" href="#projects">Projects</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-on-surface-variant/70 hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-300" href="#contact">Contact</a>
+<button class="bg-primary text-on-primary px-6 py-3 font-label-sm text-label-sm cursor-pointer transition-opacity active:opacity-70">Get in Touch</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Mobile Menu -->
+<div class="hidden fixed inset-0 z-[60] bg-surface flex flex-col items-center justify-center gap-stack-md md:hidden" id="mobile-menu">
+<button class="absolute top-8 right-margin-mobile text-primary" onclick="document.getElementById('mobile-menu').classList.add('hidden')">
+<span class="material-symbols-outlined">close</span>
+</button>
+<a class="font-headline-lg text-headline-lg text-primary" href="#about" onclick="document.getElementById('mobile-menu').classList.add('hidden')">About</a>
+<a class="font-headline-lg text-headline-lg text-primary" href="#projects" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Projects</a>
+<a class="font-headline-lg text-headline-lg text-primary" href="#contact" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Contact</a>
+</div>
+<main>
+<!-- Hero Section -->
+<section class="pt-32 pb-stack-xl md:pt-48 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="hero">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-7">
+<span class="font-label-caps text-label-caps text-secondary mb-4 block">DESIGNER &amp; DEVELOPER</span>
+<h1 class="font-display-xl-mobile text-display-xl-mobile md:font-display-xl md:text-display-xl text-primary mb-stack-sm">
+                        Crafting digital <br/> experiences with <br/> <span class="italic font-normal">quiet luxury.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-stack-md">
+                        I specialize in creating minimalist, high-performance portfolios and brand identities for world-class creatives.
+                    </p>
+<div class="flex gap-4">
+<a class="bg-primary text-on-primary px-8 py-4 font-label-sm text-label-sm flex items-center gap-2 group transition-all" href="#projects">
+                            View Work
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-5 mt-stack-md md:mt-0 relative">
+<div class="aspect-[4/5] border border-outline-variant overflow-hidden relative group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A sophisticated black and white studio portrait of a modern designer with minimalist professional attire. The lighting is high-contrast, moody, and editorial, set against a pristine, soft-grey gallery background. The aesthetic is clean, luxurious, and authoritative, perfectly aligning with a high-end corporate minimalist design system." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvmTH6Rl_LDH7FH-5eGjILqjYls6Qk6PAOquMJkg6_YQV5tUSjRFVZt06s1sslfbNNR6RVSu4nJokj-awrlCYruxExNUz3kMyJO1_OZPI8bDWtetBwmJJ18V-CgyZB6feReKLKD4yunNpHIr6R9tDQomFC14muCrGxMFkmZSRhSpGlPXFWuBVPhHkfCB4kXuc39IqoeSWOR6wVF2W5zs5KLKEE3gmdKCHGTZe6lAWOpGydWJoaXUkq8w"/>
+<div class="absolute inset-0 bg-primary/5 mix-blend-multiply pointer-events-none"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-stack-xl bg-surface-container-low" id="about">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-4">
+<h2 class="font-headline-lg text-headline-lg text-primary">About</h2>
+</div>
+<div class="md:col-span-8">
+<p class="font-headline-md text-headline-md text-on-surface mb-stack-sm leading-relaxed">
+                            I believe in the power of restraint. My work focuses on stripping away the noise to let the core message shine through with clarity and precision.
+                        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md mt-stack-md">
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                Based in London and working globally, I collaborate with agencies and independent brands to define their digital presence. With over eight years of experience, I merge technical proficiency with a keen eye for high-end aesthetics.
+                            </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                Whether it's a headless commerce build or a cinematic portfolio, the goal remains the same: creating something that feels both timeless and innovative. Every pixel is intentional, every interaction is purposeful.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section (Bento/Asymmetric Grid) -->
+<section class="py-stack-xl" id="projects">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex justify-between items-end mb-stack-lg">
+<h2 class="font-headline-lg text-headline-lg text-primary">Selected Projects</h2>
+<span class="font-label-caps text-label-caps text-secondary hidden md:block">2021 — 2024</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Project 1: Large -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="aspect-video mb-stack-sm overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A clean, minimalist website layout displayed on a high-resolution laptop screen. The screen shows a gallery of architectural photography with sharp lines and vast white space. The background is a bright, modern studio with soft daylight and concrete textures, reflecting a high-end professional design environment with primary black and secondary grey tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPts1yGvJK5tUbai1okPBS0BA52sMZGdkojO9zYb-vBcnxjaCqGIOZ62wlZYOHknHFsoxbwbOWn5YYDiU9oOJk5A2Gvp99Y6nBzXCq9TH9jRBUrL2NtY1jhs1GUobSgXQRVNtP1wEWfXjsT_FePUP5RKPjnm2tPSMRDZSaHIRl2d_NtEOIEPKVSfyuQoA-WIzFC1sszQrP0AHzo5N3DpCE32JfI6yoLboNeisQYPWrXgq-pVBV_j0ArA"/>
+</div>
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">ARCHITECTURE / WEB</span>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-primary transition-colors">Vanguard Monolith</h3>
+</div>
+<!-- Project 2: Small -->
+<div class="md:col-span-4 group cursor-pointer md:mt-24">
+<div class="aspect-[3/4] mb-stack-sm overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A macro shot of premium brand identity materials, featuring business cards with elegant typography on textured white paper and a sleek black foil logo. The scene is shot with a shallow depth of field, highlighting the tactile quality of the print. The lighting is soft and neutral, emphasizing a corporate modern aesthetic with high-energy accents of deep charcoal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTSrflR8Yigur5Ym6jugRGU3Q1ZsQTPxRbdwlMGe2xN9891Yx2AgVRSLIc6GcNCqQt96QKmQAzVZunnJZbzQSbKLVD5elHiIAmVQ_aQoGe6dedwX0Sznpegzc8XEFAMGowx2D5gm_eyUMSXJn2B681yjIsSWhG2VJdfzr-ViqKrohXFzWXz0ZOyFlRdx6dqVcwpbQ0p6s7VXpPbdkXvCQ_8LRFLMHXBawRnrrWZ9g2sMLgdP4dIPVKEQ"/>
+</div>
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">IDENTITY / PRINT</span>
+<h3 class="font-headline-md text-headline-md text-primary">Ethos Studio</h3>
+</div>
+<!-- Project 3: Medium -->
+<div class="md:col-span-4 group cursor-pointer -mt-12">
+<div class="aspect-square mb-stack-sm overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A detailed view of a mobile application interface with a dark mode aesthetic, showcasing fluid navigation and elegant typography. The screen is shown on a high-end smartphone lying on a dark, polished stone surface with subtle reflections. The mood is high-tech and sophisticated, utilizing a palette of primary black and deep blue-grey tones for a premium feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC992y0deSlyyEi5XacdwKaTTFeryRefcQdedyYi3rQACtziQV9cJfmzCSZwPrPbINcPCmnE-AiK2yxRR2UpYvt1nMe-T12KDxwozQ1NayN-w2GgmCQI3dWyiZlMXG_ml67wPyqyzoRiG2K5U2aA26c9BvAYUoAlMob2GwdylGJQXKTFDtnDnBpIYsZPuYMoTc5D-8iSyy-xbwo-UyzK1kY3Uogwv8Tu6SfNn-J0TGmFhnZ-wOJ-R8Byw"/>
+</div>
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">UI / MOBILE</span>
+<h3 class="font-headline-md text-headline-md text-primary">Nova App</h3>
+</div>
+<!-- Project 4: Wide -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="aspect-[16/7] mb-stack-sm overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="An expansive digital interface spread across multiple ultra-wide monitors in a dimly lit, professional workspace. The screen content features complex data visualizations rendered with minimalist geometric shapes and a limited monochromatic color scheme with one vibrant accent. The atmosphere is focused and futuristic, embodying a high-end corporate luxury aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuALRw29vB17fmAbMns5H9qAOSDtliklTqZ0FwUQIWpYGuiPsetyxfS7YC-j6JJMaFWwfiOcq_EO2BR0uOCyFlucmi2kyFZcNRwtZ9rzOrrjeb5GWn91WoNWER77r5KdDJHMtBPJ-BRVUqz_4-88RhrRgYBkggu3NfUEtWsuxvk31H0qTDLGBo5EISz2Q9iNkjdNugWpPOIQfShjc7Gpd6uPdvuxOPgIPT_kassv9WvZVx3ZJEr-5MRLMg"/>
+</div>
+<span class="font-label-caps text-label-caps text-secondary mb-2 block">DATA / DASHBOARD</span>
+<h3 class="font-headline-md text-headline-md text-primary">Oracle Visuals</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills/Services Section -->
+<section class="py-stack-xl bg-surface" id="skills">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter border-t border-outline-variant pt-stack-lg">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-stack-sm">Core Expertise</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+                            Providing end-to-end digital services for brands that value aesthetic precision and functional excellence.
+                        </p>
+</div>
+<div class="space-y-12">
+<div class="flex gap-6 items-start group">
+<span class="font-label-caps text-label-caps text-primary bg-surface-container-highest px-3 py-1 mt-1 group-hover:bg-primary group-hover:text-on-primary transition-colors">01</span>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-2">Visual Identity</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Defining the visual language of your brand through logos, typography, and motion guidelines.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start group">
+<span class="font-label-caps text-label-caps text-primary bg-surface-container-highest px-3 py-1 mt-1 group-hover:bg-primary group-hover:text-on-primary transition-colors">02</span>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-2">Web Experience</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Designing and developing high-performance, responsive websites with a focus on seamless UX.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start group">
+<span class="font-label-caps text-label-caps text-primary bg-surface-container-highest px-3 py-1 mt-1 group-hover:bg-primary group-hover:text-on-primary transition-colors">03</span>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-2">Motion Design</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Adding a layer of sophistication with subtle, meaningful animations and transitions.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-stack-xl" id="contact">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-xl">
+<div>
+<h2 class="font-display-xl-mobile text-display-xl-mobile md:font-display-xl md:text-display-xl text-primary mb-stack-md">
+                            Let's build <br/> something <br/> together.
+                        </h2>
+<a class="font-headline-md text-headline-md text-primary underline underline-offset-8 hover:text-on-surface-variant transition-colors" href="mailto:hello@studio.com">hello@studio.com</a>
+</div>
+<div class="bg-surface-container-low p-stack-md md:p-stack-lg">
+<form class="space-y-stack-md">
+<div>
+<label class="font-label-caps text-label-caps text-on-surface-variant mb-2 block">NAME</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="font-label-caps text-label-caps text-on-surface-variant mb-2 block">EMAIL</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline" placeholder="Your Email" type="email"/>
+</div>
+<div>
+<label class="font-label-caps text-label-caps text-on-surface-variant mb-2 block">MESSAGE</label>
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary px-0 py-2 transition-all placeholder:text-outline resize-none" placeholder="How can I help?" rows="4"></textarea>
+</div>
+<button class="bg-primary text-on-primary px-10 py-4 font-label-sm text-label-sm w-full md:w-auto hover:opacity-90 transition-opacity" type="submit">
+                                Send Inquiry
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface dark:bg-surface border-t border-outline-variant dark:border-outline">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-stack-lg gap-stack-md">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">STUDIO</div>
+<div class="flex gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:-translate-y-1" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:-translate-y-1" href="#">GitHub</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:-translate-y-1" href="#">Dribbble</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:-translate-y-1" href="#">Email</a>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant/70">
+                © 2024 Studio Portfolio. All rights reserved.
+            </div>
+</div>
+</footer>
+<script>
+        // Simple Micro-interaction for form inputs
+        document.querySelectorAll('input, textarea').forEach(el => {
+            el.addEventListener('focus', () => {
+                el.parentElement.querySelector('label').classList.add('text-primary');
+            });
+            el.addEventListener('blur', () => {
+                el.parentElement.querySelector('label').classList.remove('text-primary');
+            });
+        });
+
+        // Smooth Scroll handling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body></html>
